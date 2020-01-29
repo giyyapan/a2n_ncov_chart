@@ -1,0 +1,17 @@
+{
+  "apps" : [{
+    "name"      : "www",
+    "script"    : "bin/www",
+    "instances" : "2",
+    "exec_mode" : "cluster",
+    "watch"     : true,
+    "ignore_watch" : ["node_modules", "processes.json", "package.json", "package-lock.json"],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "env_production" : {
+       "NODE_ENV": "production"
+    },
+    "max_memory_restart": "256M"
+  }]
+}

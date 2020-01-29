@@ -1,0 +1,104 @@
+﻿<html>
+<head>
+    <title>FAQ</title>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0 user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="favicon_64.ico"/>
+
+
+    <!-- <script type="text/javascript" src="js/jq.1.10.2.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/echarts.min.js?"></script>
+    <script type="text/javascript" src="js/nConData_wuhan.js?21312"></script>
+    <script type="text/javascript" src="js/nConData.js?21312"></script>
+    <script type="text/javascript" src="js/sars_china.js?21312"></script>
+    <script type="text/javascript" src="js/html2canvas.min.js?"></script>
+    <script type="text/javascript" src="js/index.js?21312"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-78685792-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+  <div class="header">
+    <select name="select" id="select">
+      <option value ="china">全国</option>
+      <option value ="wuhan">武汉</option>
+      <option value ="sars">SARS</option>
+    </select>
+    <button id="export">保存当前折线图</button>
+    <div class="clearFloat"></div>
+  </div>
+
+  <div id="all">
+    <div id="title">新型冠状病毒相关各类人数折线图</div>
+    <div id="desc"></div>
+    <div class="watermark"></div>
+    <div id="main" ></div>
+    <div id="text">
+      <span id="region">全国</span>
+      确诊
+      <span id="confirmed"></span>
+      <span id="confirmed_suffix">例 疑似</span>
+      <span id="suspected"></span>
+      例 死亡
+      <span id="dead"></span>
+      例 治愈
+      <span id="cured"></span>
+      例
+      <br>
+      <span id="stamp">由 A2N 志愿者制图（微博：A2N抗击新型冠状病毒）</span>
+    </div>
+  </div>
+
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
