@@ -45,8 +45,8 @@ app.use('/', index);
 //   res.end();
 // });
 
-// app.set('port', 80);
-// app.listen(app.get('port'));
+app.set('port', 80);
+app.listen(app.get('port'));
 app.get('/alive', function(req, res){
     res.status(200);
     res.write("hello s3");
